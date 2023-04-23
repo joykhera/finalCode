@@ -61,5 +61,4 @@ class Lidar:
 
     def scan(self):
         # Code for Lidar scanning
-        print('scanning...')
         return "Lidar scan"
