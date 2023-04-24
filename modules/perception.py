@@ -21,8 +21,7 @@ class Perception():
         return self.camera.blindspot()
 
     def get_traffic_light_status(self):
-        """Returns the current status of the traffic lights."""
-        return random.getrandbits(1)
+        return random.randint(0, 2)
 
     def get_signal_status(self):
         return random.getrandbits(1)

@@ -40,7 +40,7 @@ vehicle = Vehicle()
 # vehicle.set_automation_level(2)
 
 # 7.2.3 Traffic Light Recognition
-# vehicle.get_traffic_light_status()
+print("Status: " + vehicle.get_traffic_light_status())
 
 # 7.2.4 Signal Recognition
 # print("Signal Recognition: " + str(vehicle.get_signal_status()))
@@ -65,8 +65,8 @@ vehicle = Vehicle()
 # print("Current speed of the vehicle: " + str(vehicle.get_speed()) + " mph")
 
 # 7.2.10 Vehicle Infrastructure and Connection Network
-print(Communication.get_vehicles())
-Communication.add_vehicle(vehicle)
-print(Communication.get_vehicles())
-Communication.remove_vehicle(vehicle)
-print(Communication.get_vehicles())
+# print(Communication.get_vehicles())
+# Communication.add_vehicle(vehicle)
+# print(Communication.get_vehicles())
+# Communication.remove_vehicle(vehicle)
+# print(Communication.get_vehicles())
